@@ -47,7 +47,7 @@ module.exports = {
           }
         ]
       }, {
-        test: /\.(png|jpg|gif|woff|woff2|ttf|obj)(\?v=\d+\.\d+\.\d+)?$/,
+        test: /\.(png|jpg|gif|woff|woff2|ttf|obj|tif)(\?v=\d+\.\d+\.\d+)?$/,
         use: [
           {
             loader: 'url-loader',
